@@ -1,0 +1,42 @@
+.CardContainer {
+  display: flex;
+  background-color: #0e1a2b;
+  color: white;
+  margin: 20px 20px 20px 5px;
+}
+.CardImage {
+  flex: 0.2;
+  background-color: black;
+}
+.CardContent {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.CardRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.CardRatingInner {
+  border-radius: 50%;
+  background-color: #5692e8;
+  color: white;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.Title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.Date {
+  font-weight: 500;
+  color: #c1d1e8;
+}
+.Description {
+  margin: 20px 0px;
+  color: #c1d1e8;
+}

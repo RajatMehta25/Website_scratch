@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  color: white;
+}
+
+.LeftInnerContainer {
+  /* background-color: aqua; */
+
+  flex: 0.3;
+}
+.RightInnerContainer {
+  flex: 0.7;
+  /* background-color: brown; */
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    flex-direction: column;
+  }
+}

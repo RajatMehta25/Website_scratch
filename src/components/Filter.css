@@ -1,0 +1,20 @@
+.FilterContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0e1a2b;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  padding: 20px 0px;
+}
+.CustomInput {
+  background: #182c47;
+  border: none;
+  line-height: 2;
+  margin-top: 0.5rem;
+  color: #c1d1e8;
+  outline: none;
+}
+.CustomInput::placeholder {
+  color: white;
+}
